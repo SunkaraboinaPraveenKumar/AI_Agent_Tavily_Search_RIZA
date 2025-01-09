@@ -5,7 +5,7 @@ import requests
 st.set_page_config(page_title="LangGraph Agent UI", layout="centered")
 
 # Define API endpoint
-API_URL = "http://127.0.0.1:8000/chat"
+API_URL = "https://ai-agent-tavily-search-riza.onrender.com/chat"
 
 # Streamlit UI Elements
 st.title("LangGraph Chatbot Agent")
